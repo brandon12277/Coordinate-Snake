@@ -1,0 +1,255 @@
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    
+    
+}
+#close-icon{
+    position:absolute;
+    right:-7%;
+    transform: scale(1.3);
+    visibility:hidden;
+    border: none;
+    background: none;
+    outline: none;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+.infom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:10%;
+    width:80%;
+    height:20%;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    visibility: hidden;
+    background-color: rgb(101, 158, 139);
+    
+}
+
+.logo{
+    position: relative;
+   
+    top:100%;
+}
+.logo_div{
+    position: relative;
+    left:8%;
+    width:80%;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.button_divs{
+    display:flex;
+   
+   width:20%;
+    justify-content:center;
+    align-content:center;
+    grid-gap:15%;
+}
+#rules{
+    outline:none;
+    
+   border:none;
+   background: none;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+    font-weight: 700;
+}
+#about{
+   margin-right:1%;
+    outline:none;
+    border:none;
+    background: none;
+   
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+    font-weight: 700;
+}
+#controls{
+    margin-right:1%;
+     outline:none;
+     border:none;
+     background: none;
+    
+     font-family: 'Quicksand', sans-serif;
+     color:white;
+     font-weight: 700;
+ }
+ #controls:hover,#rules:hover,#about:hover{
+    color:rgb(165, 42, 42);
+}
+.navbar{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    
+    
+}
+
+.about_text{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    width:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:10%;
+    left:20%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav{
+    font-family: 'Quicksand', sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    flex-direction:column;
+    position: absolute;
+    height:100%;
+    width:3%;
+    
+}
+.nav_text{
+     position: relative;
+     left: 60%;
+     bottom:10%;
+     
+    /* Border is the new background */
+    background: none;
+   color:white;
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+
+.rules{
+   
+    outline: none;
+    border: none;
+    background-color:rgb(101, 158, 139);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height:15%;
+}
+
+
+#SnakeBoard {
+    position:relative;
+    transform:scale(0.5);
+     height:50%;
+     top:5%;
+     
+     outline:none;
+    
+    }
+.scoreboard{
+    display:flex;
+    position:relative;
+    font-family: 'Quicksand', sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    left:25%;
+    top:18%;
+    width:50%;
+    color:white;
+    background-color: rgb(101, 158, 139);
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(101, 158, 139) 0px 0px 100px;
+}
+.size{
+    display: flex;
+  width:100%;  
+  
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.speed{
+    display: flex;
+    width:100%;  
+   
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.score{
+    display: flex;
+    width:100%;  
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row {
+    background-color:rgb(34, 34, 70);
+    color:rgb(101, 158, 139);
+    width:100%;
+    height: 20px;
+    border:none;
+}
+
+.square {
+    width: 2%;
+    height:100%;
+    margin: 0px;
+    display: inline-block;
+    outline: 0.5px solid;
+}
+body{
+    background-image:url("wp2409705.jpg");
+}
+#warningtext{
+    margin:10%;
+    text-align: center;
+    color: rgb(165, 42, 42);
+}
+.footer{
+    font-family: 'Quicksand', sans-serif;
+    position:absolute;
+   width:50%;
+   bottom:0;
+   left:25%;
+   bottom:3%;
+   height:10%;
+   text-align:center;
+   display:flex;
+   color:rgb(165, 42, 42);
+   
+   align-items: center;
+   justify-content: center;
+  
+}
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    color:rgb(165, 42, 42);
+}
+.warningtext{
+    position: absolute;
+   bottom:0;
+   top:20%;
+}
